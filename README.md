@@ -35,7 +35,10 @@ The following EXTRA features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
+
+![Uploading Kapture 2024-03-31 at 22.36.23.gif…]()
 
 
 ## Notes
