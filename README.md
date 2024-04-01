@@ -35,10 +35,12 @@ The following EXTRA features are implemented:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+
+![Kapture 2024-03-31 at 23 32 46](https://github.com/Erlisja/NASA_POD_recycler-view/assets/133474314/b582b3d0-54b1-460a-bffd-17c03de1ca6d)
+
+![Kapture 2024-03-31 at 23 34 08](https://github.com/Erlisja/NASA_POD_recycler-view/assets/133474314/bd68be3f-6f15-4642-b941-62f9915ce2c7)
 
 
-![Uploading Kapture 2024-03-31 at 22.36.23.gif…]()
 
 
 ## Notes
