@@ -1,7 +1,31 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources >
     <!-- Base application theme. -->
-    <style name="Base.Theme.NASAPODrecyclerView" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.NASAPODrecyclerView" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+            <item name="android:fontFamily">@font/crafty_girls</item>
+            <item name="android:textColor">@color/light_blue</item>
+            <item name="android:backgroundTint">@color/black</item>
+        </style>
+
+        <!-- Your custom theme goes here for title. -->
+        <style name="Theme.NASAPODrecyclerView" parent="Base.Theme.NASAPODrecyclerView">
+            <item name="android:fontFamily">@font/alfa_slab_one</item>
+            <item name="android:textColor">@color/dark_blue</item>
+            <item name="android:textSize">25sp</item>
+        </style>
+
+        <!-- Your custom theme goes here for text title. -->
+        <style name="Theme.NASAPODrecyclerViewTextTitle" parent="Base.Theme.NASAPODrecyclerView">
+            <item name="android:fontFamily">@font/croissant_one</item>
+            <item name="android:textSize">18sp</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+    <!-- Your custom theme goes here for text. -->
+    <style name="Theme.NASAPODrecyclerViewText" parent="Base.Theme.NASAPODrecyclerView">
+        <item name="android:textColor">@color/material_dynamic_neutral60</item>
     </style>
+
 </resources>

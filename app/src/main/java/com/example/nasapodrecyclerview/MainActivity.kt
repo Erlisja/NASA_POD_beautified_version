@@ -1,6 +1,7 @@
 package com.example.nasapodrecyclerview
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -24,12 +25,14 @@ class MainActivity : AppCompatActivity() {
 
     private val baseUrl = "https://api.nasa.gov/planetary/apod"
     private val apiKey = "OldBxtzzlUfJcHrmifQcn0bDAtjIOorryctniRMf"
+    private lateinit var appName : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
      //   imageView = findViewById(R.id.imageView)
+        appName = findViewById(R.id.appName)
         rvPod = findViewById(R.id.recyclerView)
         rvPod.layoutManager = LinearLayoutManager(this)
         rvPod.addItemDecoration(DividerItemDecoration(this@MainActivity, LinearLayoutManager.VERTICAL))
@@ -37,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         podList = mutableListOf()
         val adapter = PODAdapter(podList)
         rvPod.adapter = adapter
+        appName.setText("NASA PODS")
 
         loadAllPhotos()
     }
