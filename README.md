@@ -40,8 +40,10 @@ Here's a video / GIF that demos all of the app's implemented features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
+![Kapture 2024-04-07 at 20 45 10](https://github.com/Erlisja/NASA_POD_beautified_version/assets/133474314/65e1273f-664d-4897-b2fe-e28a39c35813)
+![Kapture 2024-04-07 at 15 58 191](https://github.com/Erlisja/NASA_POD_beautified_version/assets/133474314/b13a54f7-84b7-4188-8ff8-052f2b13073f)
 
-![Kapture 2024-04-07 at 15 58 19](https://github.com/Erlisja/NASA_POD_beautified_version/assets/133474314/97d0a084-a836-4473-9ec2-ec870ac96e84)
+
 
 ## Notes
 
