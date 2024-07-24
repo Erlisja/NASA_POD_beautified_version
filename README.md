@@ -8,7 +8,7 @@ Time spent: **3** hours spent in total
 
 ## Summary
 
-**NASA POD beautified version** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
+**NASA POD beautified version** is an Android app that uses NASA's "Photo Of The Day" API, to display a scrollable list of images, their meaning, and the date it corresponds to.  **
 
 If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
